@@ -1,0 +1,15 @@
+[project]
+name = "modelquantizer"
+description = "This is a node to converts models into Fp8, bf16, fp16."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0.0", "safetensors>=0.3.1", "tqdm>=4.65.0"]
+
+[project.urls]
+Repository = "https://github.com/lum3on/ComfyUI-ModelQuantizer"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ModelQuantizer"
+Icon = ""
